@@ -1,0 +1,5 @@
+---
+deployment:
+  task: 
+  -export DEPLOYPATH=/home/cyberns2/public_html/eleken.cybernsoft.com/
+  - /bin/cp * $DEPLOYPATH
